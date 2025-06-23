@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="deshHead">
+        <div class="header-area deshHead2">
+            <div class="logo">
+                <img src="image/logo.svg" alt="logo pic">
+            </div>
+            <div class="loginBtn">
+                <button>Logout </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="deshboard">
+        <div class="aside adBDes">
+            <div class="deshLink">
+                <ul>
+                    <li><a href="Dashboard.html"><span><i class="ri-home-smile-line"></i></span>Dashboard</a></li>
+                    <li><a href="addblog.html"><span><i class="ri-file-add-line"></i></span>Add blogs</a></li>
+                    <li><a href="bloglist.html"><span><i class="ri-file-list-line"></i></span>Blogs list</a></li>
+                    <li><a href="comment.html"><span><i class="ri-chat-ai-line"></i></span>Comments</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="deshBg addB adBDes">
+
+            <div class="add-blog">
+                <p>Upload thumbnail</p>
+                <img src="image/upload_area.png" alt="">
+                <!-- <span><i class="ri-upload-cloud-fill"></i></span> -->
+                <br>
+                <label>Blog title</label>
+                <br>
+                <input type="text" placeholder="Type here">
+                <br>
+                <label>Sub title</label>
+                <br>
+                <input type="text" placeholder="Type here">
+                <br>
+                <!-- <label for="">Blog description</label>
+                <br>
+               <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                <div class="form-group">
+                    <label>Blog description</label>
+                    <br>
+                    <div class="description-box">
+                        <div class="all-tol">
+                            <h4>Normal</h4>
+                            <div class="toolbar">
+                                <button><b>B</b></button>
+                                <button><i>I</i></button>
+                                <button><u>U</u></button>
+                                <button>🔗</button>
+                                <button>• List</button>
+                                <button>¶</button>
+                            </div>
+                        </div>
+                        <textarea name="comment" id="commentbox" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Blog category</label>
+                    <br>
+                    <select class="selCat">
+                        <option>Start Up</option>
+                        <option>Tech</option>
+                        <option>Marketing</option>
+                    </select>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input class="inputCheck" type="checkbox" id="publish" />
+                    <label for="publish">Publish Now</label>
+                </div>
+                <div class="comment-write">
+                    <button>Add Blog</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="">
+        <div class="footerContent">
+            <div class="footerText">
+                <img src="image/logo.png" alt="logo pic">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum unde quaerat eveniet cumque accusamus
+                    atque qui error quo enim fugiat?
+                </p>
+            </div>
+            <div></div>
+            <div class="link-area">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Best Sellers</a></li>
+                    <li><a href="">Offers & Deals</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="link-area">
+                <h4>Need help?</h4>
+                <ul>
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Return & Refund Policy</a></li>
+                    <li><a href="">Payment Methods</a></li>
+                    <li><a href="">Track your Order</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="link-area">
+                <h4 class="titleH4">Follow Us</h4>
+                <ul>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copytext">
+            <hr>
+            <p>Copyright 2025 © QuickBlog All Right Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,430 @@
+/*====== home page style start ======*/
+/*====== respnosive for laptop css style ======*/
+@media (max-width: 1340px) {
+    .container {
+        width: 100%;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .header-area {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .title-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 75px;
+        margin-top: 20px;
+    }
+
+    .title-text h1 span {
+        font-size: 48px;
+    }
+
+    .blogging-card {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px 20px;
+    }
+
+    /* footer start */
+    footer .footerContent {
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 28px 15px;
+    }
+}
+
+/*====== respnosive for tab css style ======*/
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .header-area {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .header-area .logo {
+        width: 160px;
+        padding: 6px 10px;
+    }
+
+    .header-area .loginBtn button {
+        padding: 10px 24px;
+        margin: 0px 10px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .content-area a {
+        font-size: 16px;
+    }
+
+    .content-area .title-text {
+        width: 100%;
+    }
+
+    .title-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 75px;
+        margin-top: 20px;
+    }
+
+    .title-text h1 span {
+        font-size: 48px;
+    }
+
+    .title-text p {
+        font-size: 18px;
+        margin: 15px 16px;
+    }
+
+    .search-blog {
+        width: 90%;
+        padding: 4px 8px;
+    }
+
+    .blogging-card {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 20px;
+    }
+
+    .single-blog {
+        margin-top: 18px;
+    }
+
+    .subscribe {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .subscribe h2 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .subscribe p {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 28px 10px;
+    }
+
+    .subscribeBtn {
+        width: 96%;
+        margin: 40px 10px;
+    }
+
+    .subscribeBtn input {
+        width: 149px;
+        font-size: 16px;
+    }
+
+    /* footer start */
+    footer .footerContent {
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 28px 15px;
+    }
+
+    /* .footerText {
+        width: 100%;
+    } */
+
+    /*============ lifestyle page style start ============  */
+    .content-area .titlelife {
+        width: 100%;
+    }
+
+    .titlelife h1 {
+        font-size: 34px;
+        line-height: 35px;
+        margin: 22px 0px 0px 10px;
+    }
+
+    .maneging img {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .maneging-content {
+        width: 100%;
+        padding-top: 18px;
+    }
+
+    .maneging-content h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding: 0px 15px;
+    }
+
+    .maneging-content p {
+        font-size: 18px;
+        line-height: 32px;
+        padding: 15px 15px;
+    }
+
+    .single-text h4 {
+        font-size: 26px;
+        padding: 8px 18px;
+    }
+
+    .single-text p {
+        font-size: 18px;
+        text-align: left;
+        padding: 6px 18px;
+    }
+
+    .single-comment {
+        margin: 16px 10px;
+    }
+
+    .add-comment h4 {
+        font-size: 26px;
+        padding: 12px 10px;
+    }
+
+}
+
+
+
+/*----- respnosive for mobile home page ------*/
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .header-area {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .header-area .logo {
+        width: 160px;
+        padding: 6px 10px;
+    }
+
+    .header-area .loginBtn button {
+        padding: 10px 24px;
+        margin: 0px 10px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .content-area a {
+        font-size: 14px;
+    }
+
+    .content-area .title-text {
+        width: 100%;
+    }
+
+    .title-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 58px;
+        margin-top: 20px;
+    }
+
+    .title-text h1 span {
+        font-size: 48px;
+    }
+
+    .title-text p {
+        font-size: 16px;
+        margin: 15px 10px;
+    }
+
+    .search-blog {
+        width: 96%;
+        margin: 20px 10px;
+        padding: 4px 8px;
+    }
+
+    /* blogging site section start */
+    .blogging-site {
+        margin-top: 40px;
+    }
+
+    .blogging-site .tab-area ul li {
+        padding: 12px 10px;
+    }
+
+    .blogging-card {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px 20px;
+    }
+
+    .single-blog {
+        margin-top: 18px;
+    }
+
+    /* subscribe section start */
+    .subscribe {
+        margin-top: 116px;
+        margin-bottom: 116px;
+    }
+
+    .subscribe h2 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 28px 10px;
+    }
+
+    .subscribeBtn {
+        width: 96%;
+        margin: 40px 10px;
+    }
+
+    .subscribeBtn input {
+        width: 149px;
+        font-size: 16px;
+    }
+
+    /* footer start */
+    footer .footerContent {
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 28px 15px;
+    }
+
+    .footerText {
+        width: 100%;
+    }
+
+    /*============ lifestyle page style start ============  */
+    .content-area .titlelife {
+        width: 100%;
+    }
+
+    .titlelife h1 {
+        font-size: 28px;
+        line-height: 35px;
+        margin: 22px 0px 0px 10px;
+    }
+
+    .content-area .textP {
+        margin: 14px 0px !important;
+    }
+
+    .maneging img {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .maneging-content {
+        width: 100%;
+        padding-top: 18px;
+    }
+
+    .maneging-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+
+    .maneging-content p {
+        font-size: 15px;
+        line-height: 32px;
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .single-text h4 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 8px 18px;
+    }
+
+    .single-text p {
+        font-size: 15px;
+        text-align: left;
+        padding: 6px 18px;
+    }
+
+    .commet-area h4 {
+        font-size: 22px;
+        line-height: 35px;
+        letter-spacing: 0%;
+        padding: 8px 0px;
+    }
+
+    .single-comment {
+        margin: 16px 10px;
+        padding: 6px;
+    }
+
+    .single-comment .comText i {
+        font-size: 17px;
+    }
+
+    .single-comment .comText h5 {
+        font-size: 18px;
+    }
+
+    .single-comment .comText p {
+        font-size: 14px;
+    }
+
+    .single-comment .day p {
+        font-size: 14px;
+    }
+
+    .add-comment h4 {
+        font-size: 20px;
+        padding: 12px 10px;
+    }
+
+    /* .comment-write input,
+    textarea {
+        width: 684px;
+    } */
+
+    .comment-write input {
+        width: 85%;
+        padding: 12px 6px;
+        font-size: 16px;
+        margin: 10px 16px;
+    }
+
+    .comment-write textarea {
+        width: 85%;
+        padding: 12px 6px;
+        font-size: 16px;
+        margin: 10px 16px;
+    }
+
+
+    /*====== Admin Login page start ======*/
+    /* .admin-login {
+        width: 445px;
+    } */
+
+}
